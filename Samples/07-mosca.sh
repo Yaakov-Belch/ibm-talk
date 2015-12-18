@@ -10,11 +10,10 @@ mosca -v                \
 
 # mqtt_sub -t hello
 # mqtt_pub -t hello -m message
-#   -l ws -h static-yaakov-belch.c9users.io
+#   -l ws -h mosca-yaakov-belch.c9users.io
 
-# mqtt_sub -t hello -l ws -h static-yaakov-belch.c9users.io
-# mqtt_pub -t hello -m message -l ws -h static-yaakov-belch.c9users.io
+# mqtt_sub -t hello -l ws -h mosca-yaakov-belch.c9users.io
+# mqtt_pub -t hello -m message -l ws -h mosca-yaakov-belch.c9users.io
 
-# https://ibm-talk-yaakov-belch.c9users.io/07a-mqtt-client.html
-# https://ibm-talk-yaakov-belch.c9users.io/07a-mqtt-client.html
-# https://hello-world-yaakov-belch.c9users.io/App/`
+# https://mosca-yaakov-belch.c9users.io/07a-mqtt-client.html
+# https://mosca-yaakov-belch.c9users.io/App/
