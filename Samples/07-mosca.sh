@@ -7,7 +7,6 @@ mosca -v             \
   --http-static WWW  \
   --http-bundle      \
   -d Db/             \
-  | bunyan
 
 # mqtt_sub -t hello
 # mqtt_pub -t hello -m message
@@ -16,5 +15,5 @@ mosca -v             \
 # mqtt_sub -t hello -l ws -h static-yaakov-belch.c9users.io
 # mqtt_pub -t hello -m message -l ws -h static-yaakov-belch.c9users.io
 
-# http://static-yaakov-belch.c9users.io/07a-mqtt-client.html
-# http://hello-world-yaakov-belch.c9users.io/App/`
+# https://ibm-talk-yaakov-belch.c9users.io/07a-mqtt-client.html
+# https://hello-world-yaakov-belch.c9users.io/App/`
