@@ -12,5 +12,5 @@ const server=http.createServer( (request,response)=> {
 });
 
 server.listen(port,ip_addr,() => {
-  console.log('The simple server started.');
+  console.log('The deleayed e server started.');
 });
