@@ -2,7 +2,7 @@
 
 import mqtt from 'mqtt';
 
-const client= mqtt.connect('ws://static-yaakov-belch.c9users.io/');
+const client= mqtt.connect('wss://static-yaakov-belch.c9users.io/');
 
 client.on('connect', function () {
   client.subscribe('qa/#');

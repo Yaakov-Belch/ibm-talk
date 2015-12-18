@@ -9,5 +9,5 @@ function factorial(n) {
 }
 
 console.log(factorial(10));
-console.log(process.argv);
-console.log(factorial(process.argv[2]||1));
+// console.log(process.argv);
+// console.log(factorial(process.argv[2]||1));
