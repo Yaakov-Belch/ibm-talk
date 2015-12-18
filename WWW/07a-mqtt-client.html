@@ -5,14 +5,14 @@
 		<title>Simple MQTT chat client</title>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 		<script type="text/javascript" 
-		  src="http://static-yaakov-belch.c9users.io/mqtt.js">
+		  src="https://mosca-yaakov-belch.c9users.io/mqtt.js">
 		</script>
 		<script type="text/javascript">
 	
       $(function(){
         console.log("loaded");
         
-        var client  = mqtt.connect('wss://static-yaakov-belch.c9users.io/');
+        var client  = mqtt.connect('wss://mosca-yaakov-belch.c9users.io/');
         
         client.on('connect', function(){
           console.log('connected');
