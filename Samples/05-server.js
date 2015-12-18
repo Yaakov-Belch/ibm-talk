@@ -7,7 +7,7 @@ const ip_addr=process.env.IP   || "0.0.0.0";
 
 const server=http.createServer( (request,response)=> {
   setTimeout( ()=>{
-    response.end('Url: ' + request.url + "\nTime: "+ new Date());
+    response.end('Path: ' + request.url + "\nTime: "+ new Date());
   },1000);
 });
 
