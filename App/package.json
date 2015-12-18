@@ -1,0 +1,42 @@
+{
+  "name": "yaakov-qa-client",
+  "version": "0.0.0",
+  "description": "simple reactive qa-client",
+  "readme": "no information yet",
+  "main": "index.js",
+  "scripts": {
+    "start": "browserify --extension=js -o bundle.js index.js & python -m SimpleHTTPServer 8080",
+    "build": "browserify --extension=js -o bundle.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@hub/Test/React"
+  },
+  "keywords": [
+    "redux",
+    "react"
+  ],
+  "author": "Yaakov Belch",
+  "license": "GPL-3.0",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "dependencies": {
+    "marked": "^0.3.5",
+    "mqtt": "^1.6.1",
+    "randomstring": "^1.1.3",
+    "react": "^0.14.0",
+    "react-autosize-textarea": "^0.2.5",
+    "react-dom": "^0.14.0",
+    "react-redux": "^3.1.0",
+    "react-textarea-autosize": "^3.2.0",
+    "redux": "^3.0.0",
+    "request-promise": "^1.0.2"
+  },
+  "devDependencies": {
+    "browserify": "~10.2.4",
+    "babelify": "~6.1.2"
+  }
+}

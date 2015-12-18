@@ -1,0 +1,30 @@
+{
+  "name": "ibm-presentation",
+  "private": true,
+  "version": "1.0.0",
+  "devDependencies": {
+    "babel-cli": "^6.3.17"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "syntax-async-functions",
+      [
+        "transform-async-to-module-method",
+        {
+          "module": "bluebird",
+          "method": "coroutine"
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "babel-plugin-syntax-async-functions": "^6.3.13",
+    "babel-plugin-transform-async-to-module-method": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "bluebird": "^3.1.1",
+    "request-promise": "^1.0.2"
+  }
+}

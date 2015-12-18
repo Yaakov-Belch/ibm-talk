@@ -1,0 +1,7 @@
+var get = require('request-promise');
+async function fetch3() {
+  let res=await get("http://yaakovnet.net/");
+  console.log(res);
+}
+fetch3();
+console.log('hello world');
