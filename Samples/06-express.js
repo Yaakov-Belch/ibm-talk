@@ -13,7 +13,7 @@ app.get('/', (request,response)=> {
   response.send('Express: ' + request.url + "\nTime: "+ new Date());
 });
 
-app.use(express.static('WWW'));
+app.use(express.static('../WWW'));
 
 app.listen(port,ip_addr,() => {
   console.log('The express server started.');

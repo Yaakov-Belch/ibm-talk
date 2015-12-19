@@ -8,6 +8,7 @@ const url1='https://echo-yaakov-belch.c9users.io/request-1';
 const url2='https://echo-yaakov-belch.c9users.io/request-2';
 const url3='https://echo-yaakov-belch.c9users.io/request-3';
 
+//*
 async function fetch3() {
   console.log(await get(url1));
   console.log(await get(url2));
@@ -17,3 +18,23 @@ async function fetch3() {
 console.log("start...");
 fetch3();
 console.log("...done.");
+//*/
+
+/*
+async function fetch2(u1,u2) {
+  const p1=get(url1);
+  const p2=get(url2);
+  const result=await p1 +" --- "+ await p2;
+  return result;
+}
+
+async function fetch21() {
+  console.log(await fetch2(url1,url2));
+  console.log(await get(url3));
+}
+
+console.log("start...");
+fetch21();
+console.log("...done.");
+
+//*/
