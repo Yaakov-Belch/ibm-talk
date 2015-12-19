@@ -1,6 +1,6 @@
 "use strict";
 
-const http=require('http');
+const http=require('https');
 
 const url1='https://echo-yaakov-belch.c9users.io/request-1';
 const url2='https://echo-yaakov-belch.c9users.io/request-2';
